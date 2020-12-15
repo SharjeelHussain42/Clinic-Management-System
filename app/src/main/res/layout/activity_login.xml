@@ -35,6 +35,8 @@
         android:textSize="20dp"
         />
     <EditText
+        android:id="@+id/email"
+        android:inputType="textEmailAddress"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="50dp"
@@ -53,6 +55,8 @@
         android:textSize="20dp"
         />
     <EditText
+        android:id="@+id/password"
+        android:inputType="textPassword"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="50dp"
@@ -61,6 +65,7 @@
         android:textColor="#ffff"
         />
     <Button
+        android:id="@+id/signin"
         android:layout_width="100dp"
         android:layout_height="30dp"
         android:layout_gravity="center"

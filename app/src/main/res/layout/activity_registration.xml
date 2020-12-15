@@ -40,7 +40,9 @@
         />
 
         <EditText
+            android:id="@+id/fname"
             android:layout_width="match_parent"
+            android:inputType="text"
             android:layout_height="40dp"
             android:layout_marginLeft="15dp"
             android:layout_marginRight="15dp"
@@ -63,6 +65,8 @@
         android:textSize="15dp"
         />
     <EditText
+        android:id="@+id/phno"
+        android:inputType="phone"
         android:layout_width="match_parent"
         android:layout_height="40dp"
         android:layout_marginLeft="15dp"
@@ -87,6 +91,8 @@
         android:textSize="15dp"
         />
     <EditText
+        android:id="@+id/email"
+        android:inputType="textEmailAddress"
         android:layout_width="match_parent"
         android:layout_height="40dp"
         android:layout_marginLeft="50dp"
@@ -105,11 +111,13 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="30dp"
-        android:text="Address"
+        android:text="Password"
         android:textColor="#ffff"
         android:textSize="15dp"
         />
     <EditText
+        android:id="@+id/password"
+        android:inputType="textPassword"
         android:layout_width="match_parent"
         android:layout_height="40dp"
         android:layout_marginLeft="30dp"
@@ -120,6 +128,7 @@
     </LinearLayout>
 
     <Button
+        android:id="@+id/signup"
         android:layout_width="120dp"
         android:layout_height="30dp"
         android:layout_gravity="center"

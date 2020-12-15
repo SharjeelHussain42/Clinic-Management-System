@@ -20,9 +20,11 @@ public class MainActivity extends AppCompatActivity {
         doc_prof=findViewById(R.id.doc_prof);
 
         doc_prof.setOnClickListener(new View.OnClickListener() {
+
             @Override
             public void onClick(View v) {
                 Intent intent=new Intent(getApplicationContext(),login.class);
+                intent.putExtra("Type","Doctor");
                 startActivity(intent);
             }
         });
@@ -30,6 +32,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent=new Intent(getApplicationContext(),login.class);
+                intent.putExtra("Type","Patient");
                 startActivity(intent);
             }
         });

@@ -5,26 +5,30 @@
     android:layout_height="wrap_content"
     android:layout_marginVertical="5dp">
     <LinearLayout
+        android:id="@+id/patientcard"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
         >
 
         <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:text="ID:1"
-            android:textSize="30dp" />
-
-        <TextView
+            android:id="@+id/name"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:text="Sharjeel Hussain"
+            android:textSize="30dp" />
+
+        <TextView
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="haseeb.mansoor8@gmail.com"
             android:textSize="25dp" />
 
         <TextView
+            android:id="@+id/phone"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"

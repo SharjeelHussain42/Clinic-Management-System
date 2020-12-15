@@ -43,6 +43,7 @@
             android:orientation="vertical">
 
             <TextView
+                android:visibility="invisible"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
@@ -52,6 +53,7 @@
                 android:textSize="30dp" />
 
             <TextView
+                android:id="@+id/fname"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
@@ -61,6 +63,7 @@
                 android:textSize="20dp" />
 
             <TextView
+                android:id="@+id/phno"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
@@ -70,11 +73,12 @@
                 android:textSize="15dp" />
 
             <TextView
+                android:id="@+id/email"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_marginLeft="20dp"
-                android:text="House#1,St#3,F-7,Executive Heights"
+                android:text="abc@gmail.com"
                 android:textColor="#ffff"
                 android:textSize="15dp" />
 
@@ -99,6 +103,7 @@
     </LinearLayout>
 
     <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv"
         android:layout_width="match_parent"
         android:layout_height="200dp"
         android:layout_marginLeft="30dp"
@@ -123,7 +128,9 @@
         android:layout_marginLeft="30dp"
         android:layout_marginTop="100dp"
         android:backgroundTint="@color/color_mix_pink"
-        android:src="@drawable/plus">
+        android:src="@drawable/plus"
 
-    </com.google.android.material.floatingactionbutton.FloatingActionButton>
+    />
+
+
 </LinearLayout>

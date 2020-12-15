@@ -39,6 +39,7 @@
 
 
         <Button
+            android:id="@+id/back"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="10dp"
@@ -50,6 +51,7 @@
             android:orientation="vertical">
 
             <TextView
+                android:id="@+id/drname"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
@@ -59,6 +61,7 @@
                 android:textSize="30dp" />
 
             <TextView
+                android:id="@+id/phno"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
@@ -68,6 +71,7 @@
                 android:textSize="25dp" />
 
             <TextView
+                android:visibility="gone"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
@@ -77,6 +81,7 @@
                 android:textSize="20dp" />
 
             <TextView
+                android:visibility="gone"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
@@ -86,6 +91,7 @@
                 android:textSize="15dp" />
 
             <TextView
+                android:visibility="gone"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
@@ -115,6 +121,7 @@
         android:textColor="#ffff"
         android:textSize="20dp" />
     <TextView
+        android:id="@+id/problem"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="60dp"
@@ -130,6 +137,7 @@
         android:textColor="#ffff"
         android:textSize="20dp" />
     <TextView
+        android:id="@+id/description"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="60dp"
@@ -145,6 +153,7 @@
         android:textColor="#ffff"
         android:textSize="20dp" />
     <TextView
+        android:id="@+id/medicine"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="60dp"

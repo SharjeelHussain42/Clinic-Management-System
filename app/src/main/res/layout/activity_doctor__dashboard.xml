@@ -47,21 +47,14 @@
     </LinearLayout>
 
     <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/ptlist"
         android:layout_width="match_parent"
-        android:layout_height="300dp"
+        android:layout_height="350dp"
         android:layout_marginLeft="30dp"
         tools:listitem="@layout/patient_card" />
 
 
-    <Button
-        android:layout_width="200dp"
-        android:layout_height="40dp"
-        android:layout_gravity="center"
-        android:layout_marginTop="35dp"
-        android:background="@drawable/message_round_background"
-        android:text="Messages(?)"
-        android:textColor="@color/color_dark_blue"
-        android:textSize="20dp" />
+
 
 
 </LinearLayout>
